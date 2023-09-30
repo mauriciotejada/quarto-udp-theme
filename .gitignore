@@ -1,4 +1,5 @@
 /.DS_Store
 quarto-udp-theme.Rproj
-template.html/
+template.html
 .Rproj.user
+template_files/
