@@ -1,0 +1,18 @@
+title: UDP theme for Quarto Presentations
+author: Mauricio M. Tejada
+version: 0.0.1
+contributes:
+  formats: 
+    revealjs:
+      #logo: logo.png
+      footer: |
+        UDP theme for Quarto Presentations
+      theme: udp.scss
+      slide-number: c/t
+      show-slide-number: all
+      title-slide-attributes:
+        data-background-color: "#ae0f17"
+        data-background-image: logo-title.png
+        data-background-size: 35%
+        data-background-position: 2% 2%
+      preview-links: true
