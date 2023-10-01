@@ -1,6 +1,6 @@
 ---
 title: "UDP theme for Quarto Presentations"
-subtitle: "Inspirado en Xaringan"
+subtitle: "Inspired in Xaringan"
 author: "Mauricio M. Tejada"
 format: 
   udp-revealjs:
@@ -39,11 +39,17 @@ You can embed code like this:
 
 You can also add `text marked as code`!
 
-# New topic! {background-color="#EDF0DA"}
+## Definitions
+
+::: {.callout-important title="Definición: Concept" icon=false}
+Here comes the definition.
+:::
+
+# New topic! {background-color="#CED3DC"}
 
 To make a slide like this, use:
 
-    # Title of slide {background-color="#EDF0DA"}
+    # Title of slide {background-color="#CED3DC"}
 
 ## Tabset example
 

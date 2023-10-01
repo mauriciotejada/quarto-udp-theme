@@ -20,7 +20,8 @@ $font-family-monospace: 'Inconsolata', monospace  !default;
 $body-bg: #fff;
 $body-color: #000000;
 $link-color: #0000EE;
-$presentation-font-size-root: 28px;
+$presentation-font-size-root: 26px;
+$callout-color-note: #D31E25;
 
 /*-- scss:rules --*/
 .reveal pre code {
@@ -30,6 +31,9 @@ $presentation-font-size-root: 28px;
   line-height: 1.2em;
 }
 
+section.slide h1 {
+  color: #D31E25 !important;
+}
 
 .subtitle {
   color: $body-bg;
@@ -93,6 +97,13 @@ section.has-dark-background a, section.has-dark-background a:hover {
 
 .emph{
   color: #D31E25;
+  font-style: italic;
+}
+
+.callout.callout-style-default .callout-body {
+  font-size: $presentation-font-size-root !important;
+  //font-family: $presentation-heading-font;
+  //::: {.callout-important title="Definición: Título" icon=false} :::
 }
 
 .small{
